@@ -1,0 +1,150 @@
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (3.9s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks             |
+  | 30 days Challenge |
+  | Unit Tests        |
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.3s)
+And I Click on the Active
+done: SecondStepDefinition.WhenIClickOnTheActive() (15.6s)
+Then all entered tasks are displayed
+done: SecondStepDefinition.ThenAllEnteredTasksAreDisplayed() (0.0s)
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (3.8s)
+When I Enter a New Unit Tests
+done: FeatureStepDefinition.WhenIEnterANew("Unit Tests") (10.5s)
+And I press Enter
+done: SecondStepDefinition.WhenIPressEnter() (0.1s)
+And I click on Checkbox of Acive Unit Tests
+done: SecondStepDefinition.WhenIClickOnCheckboxOfAcive("Unit Tests") (0.6s)
+And I Click on the Complete
+done: FeatureStepDefinition.WhenIClickOnTheComplete() (0.1s)
+Then the Unit Tests is displayed on the Completed List
+done: FeatureStepDefinition.ThenTheIsDisplayedOnTheCompletedList("Unit Tests") (0.1s)
+Given I am on the ToDoMvc AngularJS Page
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (5.3s)
+When I Enter a New Unit Tests
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (5.3s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks             |
+  | 30 days Challenge |
+  | Unit Tests        |
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.4s)
+And I Click on the Active
+done: FeatureStepDefinition.WhenIEnterANew("Unit Tests") (10.6s)
+And I press Enter
+done: SecondStepDefinition.WhenIPressEnter() (0.2s)
+And I click on Checkbox of Acive Unit Tests
+done: SecondStepDefinition.WhenIClickOnCheckboxOfAcive("Unit Tests") (0.6s)
+And I Click on the Complete
+done: FeatureStepDefinition.WhenIClickOnTheComplete() (0.1s)
+Then the Unit Tests is displayed on the Completed List
+done: FeatureStepDefinition.ThenTheIsDisplayedOnTheCompletedList("Unit Tests") (0.1s)
+done: SecondStepDefinition.WhenIClickOnTheActive() (15.6s)
+Then all entered tasks are displayed
+done: SecondStepDefinition.ThenAllEnteredTasksAreDisplayed() (0.0s)
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (4.3s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks             |
+  | 30 days Challenge |
+  | Unit Tests        |
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.3s)
+And I Click on the Active
+done: SecondStepDefinition.WhenIClickOnTheActive() (15.6s)
+Then all entered tasks are displayed
+done: SecondStepDefinition.ThenAllEnteredTasksAreDisplayed() (0.0s)
+Given I am on the ToDoMvc AngularJS Page
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (4.1s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks             |
+  | 30 days Challenge |
+  | Unit Tests        |
+error: The process cannot access the file 'C:\AutomationProjects\30DaysChallenge\ToDoMvcProject\ToDoMvcProject\Reports\LogFile.txt' because it is being used by another process.
+When I Enter a New Unit Tests
+skipped because of previous errors
+And I press Enter
+skipped because of previous errors
+And I click on Checkbox of Acive Unit Tests
+skipped because of previous errors
+And I Click on the Complete
+skipped because of previous errors
+Then the Unit Tests is displayed on the Completed List
+skipped because of previous errors
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.4s)
+And I Click on the Active
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (3.1s)
+When I Enter a New 30 days Challenge
+done: SecondStepDefinition.WhenIClickOnTheActive() (15.6s)
+Then all entered tasks are displayed
+done: SecondStepDefinition.ThenAllEnteredTasksAreDisplayed() (0.0s)
+done: FeatureStepDefinition.WhenIEnterANew("30 days Challenge") (10.6s)
+And I press Enter
+done: SecondStepDefinition.WhenIPressEnter() (0.1s)
+Then the new 30 days Challenge is populated on the List
+done: SecondStepDefinition.ThenTheNewIsPopulatedOnTheList("30 days Challenge") (0.1s)
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (2.9s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks      |
+  | Automation |
+  | Atlas      |
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.3s)
+And I click on the checkbox of one of the tasks
+done: FeatureStepDefinition.WhenIClickOnTheCheckboxOfOneOfTheTasks() (1.2s)
+And I Click on the All
+done: FeatureStepDefinition.WhenIClickOnTheAll() (0.1s)
+Then all entered tasks are displayed
+done: SecondStepDefinition.ThenAllEnteredTasksAreDisplayed() (0.0s)
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (2.9s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks              |
+  | Betradar           |
+  | Sporting Solutions |
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.4s)
+And I Click on Checkbox of 'Betradar' one of Active tasks
+binding error: Ambiguous step definitions found for step 'When I Click on Checkbox of 'Betradar' one of Active tasks': FeatureStepDefinition.WhenIClickOnCheckboxOfOneOfActiveTasks(String), SecondStepDefinition.WhenIClickOnCheckboxOfOneOfActiveTasks(String)
+And I Click on the Complete
+skipped because of previous errors
+And I click on the checkbox 'Betradar' one of the Completed tasks
+binding error: Ambiguous step definitions found for step 'When I click on the checkbox 'Betradar' one of the Completed tasks': FeatureStepDefinition.WhenIClickOnTheCheckboxOneOfTheCompletedTasks(String), SecondStepDefinition.WhenIClickOnTheCheckboxOneOfTheCompletedTasks(String)
+And I Click on the ClearCompleted
+binding error: Ambiguous step definitions found for step 'When I Click on the ClearCompleted': FeatureStepDefinition.WhenIClickOnTheClearCompleted(), SecondStepDefinition.WhenIClickOnTheClearCompleted()
+And I Click on the All
+skipped because of previous errors
+Then only 'Sporting Solutions' is displayed in
+binding error: Ambiguous step definitions found for step 'Then only 'Sporting Solutions' is displayed in': FeatureStepDefinition.ThenOnlyIsDisplayedIn(String), SecondStepDefinition.ThenOnlyIsDisplayedIn(String)
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (3.0s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks     |
+  | US Racing |
+  | Specflow  |
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.2s)
+And I click on the checkbox of one of the tasks
+done: FeatureStepDefinition.WhenIClickOnTheCheckboxOfOneOfTheTasks() (1.2s)
+And I Click on the Complete
+done: FeatureStepDefinition.WhenIClickOnTheComplete() (0.1s)
+Then all entered tasks are displayed
+done: SecondStepDefinition.ThenAllEnteredTasksAreDisplayed() (0.0s)
+Given I am on the ToDoMvc AngularJS Page
+done: FeatureStepDefinition.GivenIAmOnTheToDoMvcAngularJSPage() (2.9s)
+When I Enter New tasks
+  --- table step argument ---
+  | Tasks            |
+  | SIS Greyhounds   |
+  | SIS Throughbreds |
+done: FeatureStepDefinition.WhenIEnterNewTasks(<table>) (1.2s)
+Then all entered tasks are displayed
+done: SecondStepDefinition.ThenAllEnteredTasksAreDisplayed() (0.0s)
